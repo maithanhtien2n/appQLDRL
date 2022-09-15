@@ -1,0 +1,45 @@
+:root {
+    --ColorText: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.app {
+    display: flex;
+}
+
+.col__right__container.active {
+    display: block;
+}
+
+.col__right__container {
+    display: none;
+}
+
+/* Click menu */
+.col__left__header__menu ul li.active {
+    color: #4272d7;
+}
+
+/* Đăng xuất */
+.col__right__home__header__user__logout {
+    display: none;
+}
+
+.col__right__home__header__user__logout.active {
+    display: block;
+}
